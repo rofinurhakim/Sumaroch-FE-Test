@@ -1,0 +1,24 @@
+
+.container {
+    .row {
+        .col-md-3.btn {
+            button {
+                background-color: white;
+                color: black;
+                font-size: 21px;
+                border: none;
+            }
+            p {
+                font-size: 27px;
+                border-bottom: 3px solid black;
+            }
+            
+        }
+        .col-md-3.btn:hover {
+            button {
+                color: red;
+            }
+            
+        }
+    }
+}
